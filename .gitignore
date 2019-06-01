@@ -1,0 +1,4 @@
+node_modules
+.DS_Store
+.idea
+data.sqlite3.sqbpro
