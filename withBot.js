@@ -19,7 +19,7 @@ db_connection.connect();
 client.on("ready", () => {
     // This event will run if the bot starts, and logs in, successfully.
     console.log(`Bot has started, with ${client.users.size} users, in ${client.channels.size} channels of ${client.guilds.size} guilds.`);
-    db_connection.emptyMessages().then(ret=>{
+    db_connection.emptyMessages().then(()=>{
         for (let i=0; i<client.channels.size; i++){
             if (client.channels.array()[i].type==='text'){
                 let channel_temp = client.channels.array()[i];
@@ -89,4 +89,4 @@ processDB = function(message){
 };
 
 
-client.login(config.token_user);
+client.login(config.token_bot);

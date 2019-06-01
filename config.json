@@ -6,6 +6,8 @@
   "db_tbl_users" : "tbl_users",
   "db_tbl_messages" : "tbl_messages",
   "token_bot"  : "NTczMDk0MTk4NjAyMTA0ODUz.XMl4FA.35wMPmDX1h4YY8bkX6QaNfKWojY",
-  "token_user"  : "NTUyMjYwMzA3MTU5MDg5MTcy.XMolIA.ZIEzNwdJTzkzTTh2G18aXlcfGXk",
-  "prefix" : "+"
+  "token_user"  : "NTA2Nzg3NTMxNDM4OTQ4MzU0.XPGBjQ.546fMec8xFTcm-2KRLt85oQOHD0",
+  "prefix" : "+",
+  "api_endpoint" : "https://discordapp.com/api/v6",
+  "redirect_uri" : "https://example.org"
 }
