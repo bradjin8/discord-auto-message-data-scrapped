@@ -79,10 +79,10 @@ async function getToken() {
         });
         req.write(JSON.stringify({
             "captcha_key": null,
-            "email": 'ggow12345@gmail.com',
+            "email": '{{You Email Here}}',
             "gift_code_sku_id": null,
             "login_source": null,
-            "password": "ggow@123",
+            "password": '{{Your Password Here}}',
             "undelete": false
         }));
         req.end();
